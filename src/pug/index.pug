@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Schwifty Bikes
+        title Zyok - Music Artist
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -28,20 +28,20 @@ html(lang='en')
 
     body#page-top
 
-        // Navigation
-        //- nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top.py-3
+        //- // Navigation
+        //- nav#mainNav.navbar.navbar-expand-lg.fixed-top.py-3
         //-     .container.px-4.px-lg-5
-        //-         a.navbar-brand(href='#page-top') Start Bootstrap
-        //-         button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+        //-         a.navbar-brand(href='#page-top')
+        //-         button.navbar-toggler.text-dark.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
         //-             span.navbar-toggler-icon
         //-         #navbarResponsive.collapse.navbar-collapse
         //-             ul.navbar-nav.ms-auto.my-2.my-lg-0
         //-                 li.nav-item
+        //-                     a.nav-link(href='#services') Journey
+        //-                 li.nav-item
         //-                     a.nav-link(href='#about') About
         //-                 li.nav-item
-        //-                     a.nav-link(href='#services') Services
-        //-                 li.nav-item
-        //-                     a.nav-link(href='#portfolio') Portfolio
+        //-                     a.nav-link(href='#portfolio') Songs
         //-                 li.nav-item
         //-                     a.nav-link(href='#contact') Contact
 
@@ -50,39 +50,43 @@ html(lang='en')
             .container.px-4.px-lg-5.h-100
                 .row.gx-4.gx-lg-5.h-100.align-items-center.justify-content-center.text-center
                     .col-lg-8.align-self-end
-                        h1.text-white.font-weight-bold Schwifty Bikes
-                        hr.divider
+                        h1.text-white.font-weight-bold 
                     .col-lg-8.align-self-baseline
                         p.text-white-75.mb-5
-                            | Finding the bike that fits you
-                        a.btn.btn-primary.btn-xl(href='#portfolio') Shop Now
+                            | 
+                        //- a.btn.btn-primary.btn-xl(href='#portfolio') Shop Now
                         //- a.btn.btn-primary.btn-xl(href='#about') Find Out More
 
         // Services
         section#services.page-section.bg-dark
             .container.px-4.px-lg-5.text-white
-                h2.text-center.mt-0 Bikes to be Seen
+                h2.text-center.mt-0 Song Journey
                 hr.divider
                 .row.gx-4.gx-lg-5
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                                i.bi-card-checklist.fs-1.text-primary
-                            h3.h4.mb-2 Customizable
-                            p.text-white-75.mb-0 Our bikes come with the ability to customize each part to find that perfect fit
+                            img.img-fluid(src='assets/img/portfolio/future_sight.png', alt='...')
+                            h3.h4.mb-2.mt-4 Future Sight
+                            p.text-white-75.mb-0 The journey begins with an anthem to welcome in a new era, the origins of <b>Zyok</b>
+                        a.btn.btn-primary.btn-s.mt-3(href='#about') Download
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                                i.bi-globe.fs-1.text-primary
-                            h3.h4.mb-2 Ships Anywhere
-                            p.text-white-75.mb-0 No matter where you live we'll ship to you
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            h3.h4.mb-2.mt-4  ????
+                            p.text-white-75.mb-0 Once "Future Sight" has over 100k views then song 2 of the journey will be released 
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                                i.bi-heart.fs-1.text-primary
-                            h3.h4.mb-2 Made with Love
-                            p.text-white-75.mb-0 We give a piece of ourselves everytime we work on a new ride
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            h3.h4.mb-2.mt-4  ???? 
+                            p.text-white-75.mb-0 Once "Song 2" has over 200k views then song 3 of the journey will be released 
+            .container.mt-3.mb-0
+                hr.divider.mt-5
+                p.text-center.mt-0.text-muted Songs on the Song Journey are free. Once they leave this list they have to be paid for
 
+                                                            
         // About
         section#about.page-section.bg-primary
             .container-fluid.px-5
@@ -90,90 +94,99 @@ html(lang='en')
                     .col-lg-6.col-sm-12
                         img.img-fluid(src='assets/img/info-1.jpg', alt='...')
                     .col-lg-6.col-sm-12.p-5
-                        h2.text-white.mt-0.text-center We've got what you need!
+                        h2.text-white.mt-0.text-center A New Genre
                         hr.divider.divider-light
-                        p.text-white-75.mb-4
-                            | No matter what kind of rider we'll find a bike that fits you. Choose from a variety of bikes in our store below. If you don't find a model you like contact us and we'll see what we can do to get you back on the go.
+                        p.text-white-75.mb-2.text-center
+                            | This story begins a decade ago in the NWI region. Brought about by the passion and emotion felt on the train rides to and from work in Chicago, he took that energy to create what is now called <b>Zyok</b>  
                 .row.g-0
                     .col-lg-6.col-sm-12.p-5
-                        h2.text-white.mt-0.text-center Make it last!
+                        h2.text-white.mt-0.text-center NFT Bound
                         hr.divider.divider-light
-                        p.text-white-75.mb-4
-                            | All of our bikes come with a life time gaurantee so you don't have to worry about any fixes. Just send it back and we'll make it good as new. One of the ways we like to show we care about our customers.
+                        p.text-white-75.mb-2.text-center
+                            | This story begins a decade ago in the NWI region. Brought about by the passion and emotion felt on the train rides to and from work in Chicago, he took that energy to create what is now called <b>Zyok</b>  
                     .col-lg-6.col-sm-12
                         img.img-fluid(src='assets/img/info-2.jpg', alt='...')
-                        
- 
+                       
+        section.bg-dark.pt-5.pb-2
+            .container.px-4.px-lg-5
+                //- .small.text-center.text-muted
+                //-         i.bi-phone.fs-2.mb-3.text-muted
+                //-         div +1 (555) 123-4567
+                .small.text-center.pb-3.text-white
+                        i.bi-disc.fs-2.mb-3.text-primary
+                        div Song Collection
+
         // Portfolio
         #portfolio
             .container-fluid.p-0
                 .row.g-0
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/1.jpg', title='Fat Tire')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/1.jpg', alt='...')
+                        a.portfolio-box(href='assets/img/portfolio/future_sight.png', title='Future Sight - The beginning of all')
+                            img.img-fluid(src='assets/img/portfolio/future_sight.png', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                .bi-disc.fs-1
                                 .project-name
-                                    | Fat Tire
+                                    | Future Sight
                                 .project-category.text-white-50
-                                    | $600.00
+                                    | Track 1
                                 div#product-component-1645229335657
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/2.jpg', title='Golden Boy')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/2.jpg', alt='...')
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Future Track')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                .bi-disc.fs-1
                                 .project-name
-                                    | Golden Boy
+                                    | Future Track
                                 .project-category.text-white-50
-                                    | $1200.00
+                                    | Track 2
                                 div#product-component-1645229408364
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/3.jpg', title='Black Mamba')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/3.jpg', alt='...')
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Future Track')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                .bi-disc.fs-1
                                 .project-name
-                                    |  Black Mamba
+                                    | Future Track
                                 .project-category.text-white-50
-                                    | $450.00
+                                    | Track 3
                                 div#product-component-1645229473435
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/4.jpg', title='Night Rider')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/4.jpg', alt='...')
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Future Track')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                .bi-disc.fs-1
                                 .project-name
-                                    | Night Rider
+                                    | Future Track
                                 .project-category.text-white-50
-                                    | $1500.00
+                                    | Track 4
                                 div#product-component-1645229538017
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/5.jpg', title='Mary Jane')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/5.jpg', alt='...')
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Future Track')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                .bi-disc.fs-1
                                 .project-name
-                                    | Mary Jane
+                                    | Future Track
                                 .project-category.text-white-50
-                                    | $325.00
+                                    | Track 5
                                 div#product-component-1645229645498
                     .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/6.jpg', title='Amsterdam')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/6.jpg', alt='...')
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Future Track')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
                             .portfolio-box-caption.p-3
                                 .project-category.text-white-50
-                                .bi-bicycle.fs-1
+                                .bi-disc.fs-1
                                 .project-name
-                                    | Amsterdam
+                                    | Future Track
                                 .project-category.text-white-50
-                                    | $950.00
+                                    | Track 6
                                 div#product-component-1645229695263
+
 
         // Call to action
         //- section.page-section.bg-dark.text-white
