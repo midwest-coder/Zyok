@@ -11440,7 +11440,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(67, 3, 87, 0.8);
+  background: rgba(67, 3, 87, 0.4);
   transition: opacity 0.25s ease;
   text-align: center;
 }
