@@ -20,7 +20,7 @@ header.masthead {
     }
     
     @include media-breakpoint-up(xs) {
-        height: 80vh;
+        height: 100vh;
     }
 
     @include media-breakpoint-up(sm) {
