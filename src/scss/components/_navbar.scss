@@ -11,12 +11,13 @@
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
         color: $gray-200;
+        height: 25%;
     }
 
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: $gray-600;
+                // color: $gray-600;
                 font-family: $font-family-sans-serif;
                 font-weight: $font-weight-bold;
                 font-size: 0.9rem;
@@ -83,20 +84,9 @@
                 .nav-item {
                     .nav-link {
                         color: $gray-900;
-                        .past {
-                            &:hover {
-                                color: $green;
-                            }
-                        }
-                        .future {
-                            &:hover {
-                                color: $purple;
-                            }
-                        }
-                        .present {
-                            &:hover {
-                                color: $primary;
-                            }
+
+                        &:hover {
+                            color: $primary;
                         }
                     }
                 }
