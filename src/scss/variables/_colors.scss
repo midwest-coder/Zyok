@@ -3,12 +3,15 @@
 // 
 
 //- Override and add to color system
-$purple: #430357;
+$purple: #ac00af;
+$orange: #ff9100;
 $brown: #02020579;
 $dark: #141414;
+$green: #008d36;
 
 //- Override primary color
-$primary: $purple;
+$primary: $orange;
+$secondary: $purple;
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
 // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast

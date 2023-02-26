@@ -83,9 +83,20 @@
                 .nav-item {
                     .nav-link {
                         color: $gray-900;
-
-                        &:hover {
-                            color: $primary;
+                        .past {
+                            &:hover {
+                                color: $green;
+                            }
+                        }
+                        .future {
+                            &:hover {
+                                color: $purple;
+                            }
+                        }
+                        .present {
+                            &:hover {
+                                color: $primary;
+                            }
                         }
                     }
                 }

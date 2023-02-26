@@ -28,22 +28,24 @@ html(lang='en')
 
     body#page-top
 
-        //- // Navigation
-        //- nav#mainNav.navbar.navbar-expand-lg.fixed-top.py-3
-        //-     .container.px-4.px-lg-5
-        //-         a.navbar-brand(href='#page-top')
-        //-         button.navbar-toggler.text-dark.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-        //-             span.navbar-toggler-icon
-        //-         #navbarResponsive.collapse.navbar-collapse
-        //-             ul.navbar-nav.ms-auto.my-2.my-lg-0
-        //-                 li.nav-item
-        //-                     a.nav-link(href='#services') Journey
-        //-                 li.nav-item
-        //-                     a.nav-link(href='#about') About
-        //-                 li.nav-item
-        //-                     a.nav-link(href='#portfolio') Songs
-        //-                 li.nav-item
-        //-                     a.nav-link(href='#contact') Contact
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.fixed-top.py-3
+            .container.px-4.px-lg-5
+                a.navbar-brand(href='#page-top')
+                button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ms-auto.my-2.my-lg-0
+                        li.nav-item
+                            a.nav-link(href='#about') Intro
+                        li.nav-item
+                            a.nav-link(href='#services') Journey
+                        li.nav-item
+                            a.nav-link(href='#present') Present
+                        li.nav-item
+                            a.nav-link(href='#future') Future
+                        li.nav-item
+                            a.nav-link(href='#past') Past
 
         // Masthead
         header.masthead
@@ -56,6 +58,15 @@ html(lang='en')
                             | 
                         //- a.btn.btn-primary.btn-xl(href='#portfolio') Shop Now
                         //- a.btn.btn-primary.btn-xl(href='#about') Find Out More
+                        
+        section#about.page-section.bg-primary
+            .container.px-4.px-lg-5.h-100
+                .row.gx-4.gx-lg-5.h-100.align-items-center.justify-content-center.text-center
+                    .col-lg-8.align-self-end
+                        h1.text-white.font-weight-bold 
+                    .col-lg-8.align-self-baseline
+                        h3.text-white-75.pt-5.mb-2.text-center
+                            | <b class="text-primary">Zyok</b>, Created by Gaea, is one of her earliest creations tasked with the mission of helping to maintain the balance. He promotes positive energy where it rises and roots out negative energy.
 
         // Services
         section#services.page-section.bg-dark
@@ -66,46 +77,46 @@ html(lang='en')
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                            img.img-fluid(src='assets/img/portfolio/future_sight.png', alt='...')
-                            h3.h4.mb-2.mt-4 Future Sight
-                            p.text-white-75.mb-0 The journey begins with an anthem to welcome in a new era, the origins of <b>Zyok</b>
-                        a.btn.btn-primary.btn-s.mt-3(href='#about') Download
+                            img.img-fluid(src='assets/img/past-intro.jpg', alt='...')
+                            h3.h4.mb-2.mt-4 Past
+                            p.text-white-75.mb-0 The earliest forms of civilization when humans were more in tune with the Earth while achieving great technological advances
+                        //- a.btn.btn-primary.btn-s.mt-3(href='#about') Download
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
-                            h3.h4.mb-2.mt-4  ????
-                            p.text-white-75.mb-0 Once "Future Sight" has over 100k views then song 2 of the journey will be released 
+                            img.img-fluid(src='assets/img/present-intro.jpg', alt='...')
+                            h3.h4.mb-2.mt-4  Present
+                            p.text-white-75.mb-0 A few hundred years ahead of where Earth is today. Almost everything has been stripped away while humans rely primarily on technology
                     .col-lg-4.col-xs-12.text-center
                         .mt-5
                             .mb-2
-                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
-                            h3.h4.mb-2.mt-4  ???? 
-                            p.text-white-75.mb-0 Once "Song 2" has over 200k views then song 3 of the journey will be released 
+                            img.img-fluid(src='assets/img/future-intro.jpg', alt='...')
+                            h3.h4.mb-2.mt-4  Future
+                            p.text-white-75.mb-0 Thousands of years down the line when the planet is slowly healing. The civilization that remains focuses much of their effort on restoration
             .container.mt-3.mb-0
                 hr.divider.mt-5
-                p.text-center.mt-0.text-muted Songs on The Journey are free. Once they leave this list they have to be paid for
+                p.text-center.mt-0.text-muted Each Timeline Represents a Unique Type of Sound
 
                                                             
         // About
-        section#about.page-section.bg-primary
+        section#present.page-section.bg-primary
             .container-fluid.px-5
                 .row.g-0
                     .col-lg-6.col-sm-12
-                        img.img-fluid(src='assets/img/info-1.png', alt='...')
-                    .col-lg-6.col-sm-12.p-5
-                        h2.text-white.mt-0.text-center Natural Nine
+                        img.img-fluid(src='assets/img/present-img-1.jpg', alt='...')
+                    .col-lg-6.col-sm-12.p-5.bg-dark
+                        h2.text-white.mt-0.text-center The Present
                         hr.divider.divider-light
                         p.text-white-75.mb-2.text-center
-                            | Natural Nine is the name of Zyok's initial project which includes 9 songs to be released. Each song was made to embody the emotions and energy from the year of it's creation with some years having multiple songs to tell the complete emotional story
+                            | Our journey will begin in the present and end in the past. It is currently the year 2448 and society is hanging on by a thread. The level of disparity between the elite and common class is nothing like we've ever seen.
                 .row.g-0
-                    .col-lg-6.col-sm-12.p-5
-                        h2.text-white.mt-0.text-center Man on the Lake
+                    .col-lg-6.col-sm-12.p-5.bg-dark
+                        h2.text-white.mt-0.text-center Awoken
                         hr.divider.divider-light
                         p.text-white-75.mb-2.text-center
-                            | Raised in the Chicago land area, Zyok drew a lot of inspiration from the windy city. Whether it's throwing down some guitar, or serving up a smooth synth, you always hear a touch of his Chicago roots in every track  
+                            | Zyok has rested for a long time only to wake up in a world far from the one he remembered. Most of the humans are cold and lifeless as opposed to the ones from his memories.   
                     .col-lg-6.col-sm-12
-                        img.img-fluid(src='assets/img/info-2.png', alt='...')
+                        img.img-fluid(src='assets/img/present-img-2.jpg', alt='...')
                        
         section.bg-dark.pt-5.pb-2
             .container.px-4.px-lg-5
@@ -117,7 +128,269 @@ html(lang='en')
                         div Song Collection
 
         // Portfolio
-        #portfolio
+        #present-portfolio
+            .container-fluid.p-0
+                .row.g-0
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/future_sight.png', title='Inspired by 2016')
+                            img.img-fluid(src='assets/img/portfolio/future_sight.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Future Sight
+                                .project-category.text-white-50
+                                    | 2016
+                                //- div#product-component-1645229335657
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2017')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 2 
+                                .project-category.text-white-50
+                                    | 2017
+                                //- div#product-component-1645229408364
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2018')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 3
+                                .project-category.text-white-50
+                                    | 2018
+                                //- div#product-component-1645229473435
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2019')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 4
+                                .project-category.text-white-50
+                                    | 2019
+                                //- div#product-component-1645229538017
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2019')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 5
+                                .project-category.text-white-50
+                                    | 2019
+                                //- div#product-component-1645229645498
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2020')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 6
+                                .project-category.text-white-50
+                                    | 2020
+                                //- div#product-component-1645229695263
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2020')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 7
+                                .project-category.text-white-50
+                                    | 2020
+                                //- div#product-component-1645229538017
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2021')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 8
+                                .project-category.text-white-50
+                                    | 2021
+                                //- div#product-component-1645229645498
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2022')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 9
+                                .project-category.text-white-50
+                                    | 2022
+
+        section#future.page-section.bg-secondary
+            .container-fluid.px-5
+                .row.g-0
+                    .col-lg-6.col-sm-12
+                        img.img-fluid(src='assets/img/future-img-1.jpg', alt='...')
+                    .col-lg-6.col-sm-12.p-5.bg-dark
+                        h2.text-white.mt-0.text-center The Future
+                        hr.divider.divider-light
+                        p.text-white-75.mb-2.text-center
+                            |  The year 5688 and society is in a whole new chapter where people are beginning to respect each other and the planet.
+                .row.g-0
+                    .col-lg-6.col-sm-12.p-5.bg-dark
+                        h2.text-white.mt-0.text-center Restoration
+                        hr.divider.divider-light
+                        p.text-white-75.mb-2.text-center
+                            | Zyok has watched his mother, Gaea, go through so many changes but has not heard her voice for the last few thousand years. With that he's made it his personal mission to restore her to a stable condition. 
+                    .col-lg-6.col-sm-12
+                        img.img-fluid(src='assets/img/future-img-2.jpg', alt='...')
+                       
+        section.bg-dark.pt-5.pb-2
+            .container.px-4.px-lg-5
+                //- .small.text-center.text-muted
+                //-         i.bi-phone.fs-2.mb-3.text-muted
+                //-         div +1 (555) 123-4567
+                .small.text-center.pb-3.text-white
+                        i.bi-disc.fs-2.mb-3.text-secondary
+                        div Song Collection
+
+        // Portfolio
+        #future-portfolio
+            .container-fluid.p-0
+                .row.g-0
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/future_sight.png', title='Inspired by 2016')
+                            img.img-fluid(src='assets/img/portfolio/future_sight.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Future Sight
+                                .project-category.text-white-50
+                                    | 2016
+                                //- div#product-component-1645229335657
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2017')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 2 
+                                .project-category.text-white-50
+                                    | 2017
+                                //- div#product-component-1645229408364
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2018')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 3
+                                .project-category.text-white-50
+                                    | 2018
+                                //- div#product-component-1645229473435
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2019')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 4
+                                .project-category.text-white-50
+                                    | 2019
+                                //- div#product-component-1645229538017
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2019')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 5
+                                .project-category.text-white-50
+                                    | 2019
+                                //- div#product-component-1645229645498
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2020')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 6
+                                .project-category.text-white-50
+                                    | 2020
+                                //- div#product-component-1645229695263
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2020')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 7
+                                .project-category.text-white-50
+                                    | 2020
+                                //- div#product-component-1645229538017
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2021')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 8
+                                .project-category.text-white-50
+                                    | 2021
+                                //- div#product-component-1645229645498
+                    .col-lg-4.col-sm-6
+                        a.portfolio-box(href='assets/img/portfolio/next_album.png', title='Inspired by 2022')
+                            img.img-fluid(src='assets/img/portfolio/next_album.png', alt='...')
+                            .portfolio-box-caption.p-3
+                                .project-category.text-white-50
+                                .bi-disc.fs-1
+                                .project-name
+                                    | Track 9
+                                .project-category.text-white-50
+                                    | 2022
+
+        section#past.page-section.bg-secondary
+            .container-fluid.px-5
+                .row.g-0
+                    .col-lg-6.col-sm-12
+                        img.img-fluid(src='assets/img/past-img-2.jpg', alt='...')
+                    .col-lg-6.col-sm-12.p-5.bg-dark
+                        h2.text-white.mt-0.text-center The Past
+                        hr.divider.divider-light
+                        p.text-white-75.mb-2.text-center
+                            |  The year is unknown to our records, a time long before any of our records. The humans back then were much different than the ones we know today with technology unlike our own.
+                .row.g-0
+                    .col-lg-6.col-sm-12.p-5.bg-dark
+                        h2.text-white.mt-0.text-center Initialization
+                        hr.divider.divider-light
+                        p.text-white-75.mb-2.text-center
+                            | Zyok is old relative to any human but is an infant in his own timeline. There's plenty left to him to learn and emotions to experience 
+                    .col-lg-6.col-sm-12
+                        img.img-fluid(src='assets/img/past-img-1.jpg', alt='...')
+                       
+        section.bg-dark.pt-5.pb-2
+            .container.px-4.px-lg-5
+                //- .small.text-center.text-muted
+                //-         i.bi-phone.fs-2.mb-3.text-muted
+                //-         div +1 (555) 123-4567
+                .small.text-center.pb-3.text-white
+                        i.bi-disc.fs-2.mb-3.text-success
+                        div Song Collection
+
+        // Portfolio
+        #past-portfolio
             .container-fluid.p-0
                 .row.g-0
                     .col-lg-4.col-sm-6

@@ -10,13 +10,14 @@
     // if the image name change, make sure to update the url path below!
 
     background: linear-gradient(to bottom,
-    #{fade-out($primary, 0.25)} 0%,
-    #{fade-out($primary, 0.25)} 100%),
-    url("../assets/img/about-bg-1.jpg");
+    #{fade-out($dark, 0.85)} 0%,
+    #{fade-out($dark, 0.5)} 100%),
+    url("../assets/img/zyok-character.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    height: 100%;
 
     h1 {
         font-size: 2.25rem;
