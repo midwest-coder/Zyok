@@ -32,8 +32,8 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.fixed-top.py-3.bg-dark
             .container.px-4.px-lg-5
                 a.navbar-brand(href='#page-top')
-                    img.img-fluid(src='assets/img/main-design-small.png', alt='...')
-                button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    //- img.img-fluid(src='assets/img/main-design-small.png', alt='...')
+                button.text-dark.navbar-toggler.navbar-dark.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.my-2.my-lg-0
@@ -101,7 +101,7 @@ html(lang='en')
                                                             
         // About
         section#present.page-section.bg-primary
-            .container-fluid.px-5
+            .container-fluid.px-sm-5
                 .row.g-0
                     .col-lg-6.col-sm-12
                         img.img-fluid(src='assets/img/present-img-1.jpg', alt='...')
@@ -110,7 +110,6 @@ html(lang='en')
                         hr.divider.divider-light
                         p.text-white-75.mb-2.text-center
                             | Our journey will begin in the present and end in the past. It is currently the year 2448 and society is hanging on by a thread. The level of disparity between the elite and common class is nothing like we've ever seen.
-                .row.g-0
                     .col-lg-6.col-sm-12.p-5.bg-dark
                         h2.text-white.mt-0.text-center Awoken
                         hr.divider.divider-light
@@ -126,7 +125,7 @@ html(lang='en')
                 //-         div +1 (555) 123-4567
                 .small.text-center.pb-3.text-white
                         i.bi-disc.fs-2.mb-3.text-primary
-                        div Song Collection
+                        div Present Collection
 
         // Portfolio
         #present-portfolio
@@ -232,7 +231,7 @@ html(lang='en')
                                     | 2022
 
         section#future.page-section.bg-secondary
-            .container-fluid.px-5
+            .container-fluid.px-sm-5
                 .row.g-0
                     .col-lg-6.col-sm-12
                         img.img-fluid(src='assets/img/future-img-1.jpg', alt='...')
@@ -257,7 +256,7 @@ html(lang='en')
                 //-         div +1 (555) 123-4567
                 .small.text-center.pb-3.text-white
                         i.bi-disc.fs-2.mb-3.text-secondary
-                        div Song Collection
+                        div Future Collection
 
         // Portfolio
         #future-portfolio
@@ -363,7 +362,7 @@ html(lang='en')
                                     | 2022
 
         section#past.page-section.bg-secondary
-            .container-fluid.px-5
+            .container-fluid.px-sm-5
                 .row.g-0
                     .col-lg-6.col-sm-12
                         img.img-fluid(src='assets/img/past-img-1.jpg', alt='...')
@@ -388,7 +387,7 @@ html(lang='en')
                 //-         div +1 (555) 123-4567
                 .small.text-center.pb-3.text-white
                         i.bi-disc.fs-2.mb-3.text-success
-                        div Song Collection
+                        div Past Collection
 
         // Portfolio
         #past-portfolio
